@@ -18,7 +18,12 @@ vector<int> rightShift(vector<int> vec, int shift)
 }
 vector<int> leftShift(vector<int> vec, int shift)
 {
-
+	for (int i = 0; i < shift; ++i)
+	{
+		int tmp = vec[0];
+		vec.erase(vec.begin());
+		vec.insert(vec.end(), tmp);
+	}
 
 	return vec;
 }
