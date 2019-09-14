@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1566164255 source:/home/jaret/Documents/GitHub/Two Sums/C++/functions.cpp
+	"functions.hpp"
+	<vector>
+	<iostream>
+
+1566164298 /home/jaret/Documents/GitHub/Two Sums/C++/functions.hpp
+	<vector>
+
+1566164260 source:/home/jaret/Documents/GitHub/Two Sums/C++/main.cpp
+	<iostream>
+	"functions.hpp"
+

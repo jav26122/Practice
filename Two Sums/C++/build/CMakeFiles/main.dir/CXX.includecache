@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jaret/Documents/GitHub/Two Sums/C++/functions.hpp
+vector
+-
+
+/home/jaret/Documents/GitHub/Two Sums/C++/main.cpp
+iostream
+-
+functions.hpp
+/home/jaret/Documents/GitHub/Two Sums/C++/functions.hpp
+
