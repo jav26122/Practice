@@ -16,11 +16,11 @@ return [0, 1].
 
 
 #include <iostream>
-#include "functions_HPP"
+#include "functions.hpp"
 
-int int main()
+int main()
 {
-    vector<int> nums = {2, 7, 11, 15};
+    std::vector<int> nums = {2, 7, 11, 15};
     int target = 9;
     twoSums(nums, target);
     return 0;
