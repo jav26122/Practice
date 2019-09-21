@@ -16,3 +16,30 @@ They have 7 differences, and therefore the Hamming Distance is 7.
 
 The Hamming Distance is useful for lots of things in science, not just biology, so it's a nice phrase to be familiar with :)
 
+]]
+
+Strand1 = "GAGCCTACTAACGGGATa"
+Strand2 = "CATCGTAATGACGGCCT"
+
+function findDistance(s1, s2)
+    distance = 0
+    l1 = string.len(s1)
+    l2 = string.len(s2)
+    if l1 ~= l2 then
+        print("Sequences are not of equal length. Cannot calculate Hamming Distance.")
+        return -1
+    else
+        for i=1, l1 do
+            if string.sub(s1, i, i) ~= string.sub(s2, i, i) then
+                distance = distance + 1
+            end
+        end
+    end
+    return distance
+end
+
+
+print(findDistance(Strand1, Strand2))
+
+
+while true do end -- halt
