@@ -104,3 +104,31 @@ To run the tests, run the command busted from within the exercise directory.
 
 ]]
 
+
+
+Phrases = {
+"lay in the house that Jack built.",
+"ate the malt",
+"killed the rat",
+"worried the cat",
+"tossed the dog",
+"milked the cow with the crumpled horn",
+"kissed the maiden all forlorn",
+"married the man all tattered and torn",
+"woke the priest all shaven and shorn",
+"kept the rooster that crowed in the morn",
+"belonged to the farmer sowing his corn",
+"is the horse and the hound and the horn"
+}
+
+
+function reciteRhyme(lines)
+    for i=1, #lines do
+        print("This is the"..lines[i])
+        for j=i, #lines - i do
+            print("that "..lines[j])
+        end
+    end
+end
+
+reciteRhyme(Phrases)
