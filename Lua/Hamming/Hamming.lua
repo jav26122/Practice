@@ -18,7 +18,7 @@ The Hamming Distance is useful for lots of things in science, not just biology, 
 
 ]]
 
-Strand1 = "GAGCCTACTAACGGGATa"
+Strand1 = "GAGCCTACTAACGGGAT"
 Strand2 = "CATCGTAATGACGGCCT"
 
 function findDistance(s1, s2)
